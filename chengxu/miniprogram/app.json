@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mian/mian",
+    "pages/main/content",
+    "pages/content/info"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Ding",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index.png"
+    },{
+      "pagePath": "pages/mian/mian",
+      "text": "我的主页",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user.png"
+    }]
+  }
+}

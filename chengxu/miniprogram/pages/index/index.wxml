@@ -1,0 +1,17 @@
+ <view class="contents" wx:for="{{content}}">
+  <navigator url="../main/content?info={{item.articleDetail}}">
+  <view class="content">
+  <view class="img">
+    <image src="{{item.articleThumbnail}}"></image>
+  </view>
+    <view class="contexts">
+      
+      <view class="content-name">{{item.articleId}}</view> 
+      <view class="content-name">{{item.articleTitle}}</view>
+    
+    </view>
+
+  </view>
+  <view class="divLine"></view>
+</navigator>
+</view>
